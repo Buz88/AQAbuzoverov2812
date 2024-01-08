@@ -30,5 +30,5 @@ print(f"Площа кола дорівнює {S}")
 
 dollar_course = 39.2
 convert = 1000/dollar_course
-conv_round = round(convert,2)
+conv_round = round(convert, 2)
 print('Поточний курс складає: '+ str(conv_round))
