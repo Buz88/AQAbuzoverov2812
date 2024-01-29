@@ -6,7 +6,7 @@
 
 # Напишіть програму на Python, щоб знайти
 # список із максимальною та мінімальною довжиною за допомогою лямбда.
-from functools import reduce
+
 # Zadacha 1
 '''
 find_intersection = lambda a, b: list(filter(lambda x: x in a, b))
