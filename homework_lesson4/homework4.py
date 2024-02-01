@@ -13,7 +13,8 @@ while True:
     if new_note_string.startswith('add'):
         note_string.append(new_note_string.replace('add', ''))
     elif new_note_string == 'earliest':
-        print('Від найновішої до найпізнішої: ', sorted(note_string, reverse=True))
+        reversed_note_string = reversed(note_string)
+        print('Від найновішої до найпізнішої: ', list(reversed_note_string))
     elif new_note_string == 'latest':
         print('Від найпізнішої до найновішої: ', note_string)
     elif new_note_string == 'longest':
