@@ -1,0 +1,1 @@
+from .package_3 import my_divide, my_sum

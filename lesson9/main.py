@@ -15,6 +15,9 @@ uga_buga_salary = 100
 # print(sum1(bubba_salary, uga_buga_salary))
 # print(sum2(bubba_salary, uga_buga_salary,300))
 
-from lesson9 import my_sum, very_useful_function
+from lesson9 import my_sum, very_important_func
 print(my_sum(bubba_salary, uga_buga_salary))
-very_useful_function
+very_important_func()
+from lesson9.another_directory.another_one_directory.application import my_sum as another_my_sum
+print(another_my_sum(bubba_salary, uga_buga_salary))
+

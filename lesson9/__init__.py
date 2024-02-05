@@ -1,1 +1,1 @@
-from .folder_1 import my_sum, very_useful_function
+from .folder_1 import my_sum, very_important_func
