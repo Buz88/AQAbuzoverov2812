@@ -1,0 +1,19 @@
+{
+    "name": "Alejandro",
+    "age": 60,
+    "songs": [
+        "music1",
+        "music2",
+        "music3",
+        "music4"
+    ],
+    "alive": true,
+    "minuses": null,
+    "base": {
+        "base1": {
+            "base2": {
+                "unique_value1": "12321"
+            }
+        }
+    }
+}
